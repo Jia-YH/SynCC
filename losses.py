@@ -1,4 +1,3 @@
-"""Self-supervised reconstruction losses (verbatim from ``loss_func.py``)."""
 import torch
 import torch.nn.functional as F
 
