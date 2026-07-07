@@ -1,4 +1,3 @@
-"""kNN cell-graph construction (verbatim from the original ``knn_graph``)."""
 import torch
 import torch.nn.functional as F
 import dgl
