@@ -1,4 +1,3 @@
-"""ZINB reconstruction layers (verbatim from ``embding/layers/ZINB.py``)."""
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
