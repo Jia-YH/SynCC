@@ -1,9 +1,3 @@
-"""Configuration, argument parsing and shared training utilities.
-
-Reorganized from the original ``utils.py`` / ``graphmae/utils.py``.
-Only the pieces actually used by the SynCC pipeline are kept; every
-numeric helper is preserved verbatim so results are unchanged.
-"""
 import os
 import argparse
 import random
