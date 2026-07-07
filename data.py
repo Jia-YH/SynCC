@@ -1,9 +1,3 @@
-"""Dataset loading, preprocessing and kNN cell-graph construction.
-
-Merges the original ``embedder.py`` (preprocessing), ``misc/utils.drop_data``
-(dropout masking for imputation) and ``models/Test_scGC.Trainer`` into a single
-``Trainer`` class. All numeric behaviour is preserved verbatim.
-"""
 import os
 
 import numpy as np
