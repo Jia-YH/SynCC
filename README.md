@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SynCC
 
 SynCC: Synergistic Learning for Robust Clustering in Single-Cell Transcriptomics
@@ -52,3 +53,6 @@ Notes:
   selects the config block. They are usually the same.
 - `--drop_rate > 0` enables the imputation experiment; with `--drop_rate 0`
   only clustering metrics are meaningful.
+=======
+# SynCC
+>>>>>>> 04b6152b2d65430e1668b718fa76dd0c03d79a5b
