@@ -1,22 +1,3 @@
-"""SynCC -- main entry point.
-
-Single-cell RNA-seq clustering & imputation via a GAT masked graph
-auto-encoder with contrastive and ZINB objectives.
-
-Reorganized from the original ``Test_GCMA.py`` (clustering / ``cls`` task).
-
-Usage
------
-Train and evaluate::
-
-    python SynCC.py --dataset baron_mouse --name baron_mouse --task cls \
-        --use_cfg --scheduler --save_model --model_path checkpoints/baron_mouse.pt
-
-Evaluate a previously trained checkpoint (unchanged precision)::
-
-    python SynCC.py --dataset Quake_Muscle --name Quake_Muscle --task cls \
-        --use_cfg --load_model --model_path finalmodel_editDM/last/Quake_Muscle_up.pt
-"""
 import os
 import logging
 
