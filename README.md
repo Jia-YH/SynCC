@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SynCC
 
 SynCC: Synergistic Learning for Robust Clustering in Single-Cell Transcriptomics
