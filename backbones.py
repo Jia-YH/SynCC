@@ -1,9 +1,3 @@
-"""Alternative GNN backbones (SAGE / GIN / GCN / DotGAT).
-
-These are kept so ``setup_module`` in :mod:`model` can build non-GAT
-encoders/decoders. The default SynCC configuration uses GAT, so they are
-inactive in the standard pipeline but preserved verbatim for completeness.
-"""
 import tqdm
 import torch
 import torch.nn as nn
