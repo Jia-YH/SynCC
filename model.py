@@ -1,13 +1,3 @@
-"""SynCC model: GAT masked graph auto-encoder with contrastive + ZINB heads.
-
-Reorganized from the original ``graphmae/models/edcoder.py``.
-
-IMPORTANT: ``PreModel.__init__`` is preserved verbatim (identical submodule
-names, shapes and construction) so that checkpoints trained with the original
-code load with ``strict=True`` and inference is numerically unchanged.
-Only clearly-dead methods (the standalone ``clustering`` fine-tuner, the legacy
-``encoding_mask_noise``, ``sage_embed``, ``reconstruct_adj`` etc.) were removed.
-"""
 from typing import Optional
 from functools import partial
 
