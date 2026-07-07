@@ -1,12 +1,3 @@
-"""Clustering and imputation evaluation.
-
-Reorganized from the original ``graphmae/evaluation.py``. The metric
-computation (embedding -> KMeans -> NMI/ARI/CA and RMSE/L1/cosine) is preserved
-verbatim. The dataset-specific marker-gene / UMAP / t-SNE visualization block
-(which read a hard-coded ``dataset/Quake_Muscle.h5ad`` and ran *after* the
-metrics were already computed) has been removed; it never affected the returned
-numbers.
-"""
 import numpy as np
 import torch
 
