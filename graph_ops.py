@@ -1,8 +1,3 @@
-"""Graph augmentation operators used during training.
-
-Extracted verbatim from the original ``graphmae/utils.py`` -- these are the
-centrality/drop helpers referenced by the masked-autoencoder augmentation.
-"""
 import numpy as np
 import networkx as nx
 from torch_scatter import scatter
