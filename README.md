@@ -50,5 +50,4 @@ Notes:
 - `--use_cfg` loads per-dataset hyper-parameters from `configs.yml`.
 - `--name` selects the `.h5ad` file (`dataset/{name}.h5ad`); `--dataset`
   selects the config block. They are usually the same.
-- `--drop_rate > 0` enables the imputation experiment; with `--drop_rate 0`
-  only clustering metrics are meaningful.
+
